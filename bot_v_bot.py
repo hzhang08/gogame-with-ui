@@ -9,7 +9,7 @@ import time
 
 
 def main():
-    board_size = 9
+    board_size = 19
     game = goboard.GameState.new_game(board_size)
     bots = {
         gotypes.Player.black: RandomBot(),
@@ -23,6 +23,8 @@ def main():
         bot_move = bots[game.next_player].select_move(game)
         print_move(game.next_player, bot_move)
         game = game.apply_move(bot_move)
+        print(bot_move.point)
+        input("please enter key to continue...")
 
 
 if __name__ == '__main__':
