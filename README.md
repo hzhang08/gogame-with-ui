@@ -1,5 +1,5 @@
 ## Introduction
-This repo is for the dlgo class with a pygame graphic interface
+This repo is for the dlgo class with a pygame graphic interface. This repo is compatible with python3.12. No AI included so far.
 
 ## How does it work?
 
@@ -18,7 +18,7 @@ This repo is for the dlgo class with a pygame graphic interface
     a. Click anywhere
 
     b. There will be bot moves for both black and white
-    
+
 
 
 
